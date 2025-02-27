@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* @theme {
+    --color-primary-500: #E3EEE6 ;
+    --color-secondary-700: #4BA56D ;
+} */
+/* Bleu */
+/* @theme {
+    --color-primary-500: #E3F0FF; 
+    --color-secondary-700: #4B76D1;
+} */
+
+/* Orange */
+@theme {
+    --color-primary-500: #FFE7D1;
+    --color-secondary-700: #D16B26;
+}
+
+/* Violet */
+/* @theme {
+    --color-primary-500: #E9DAFF;
+    --color-secondary-700: #7048B6;
+} */
+
+body {
+    font-family: Roboto;
+    font-size:smaller;
+}
+
