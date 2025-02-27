@@ -4,7 +4,7 @@ import Card from '@/components/Card.vue';
 </script>
 
 <template>
-    <Card title="EXPERIENCE PROFESSIONNELLE">
+    <Card title="EXPERIENCES PROFESSIONNELLES">
         <div v-for="(exp, index) in experiences" :key="index" class="mb-1">
             <h3 class="text-lg font-bold">{{ exp.title }}</h3>
             <p class="text-gray-600 font-semibold">{{ exp.company }} - {{ exp.location }}</p>

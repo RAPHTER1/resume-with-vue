@@ -1,6 +1,6 @@
 <template>
     <div class=" flex justify-between pb-3 pt-6 px-6">
-        <Content class="w-125"
+        <Content class="w-140"
             name="Raphaël FARY-OLAX" 
             jobTitle="Ingénieur DevOps" 
             email="rapha@example.com" 

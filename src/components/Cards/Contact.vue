@@ -24,7 +24,7 @@ import Card from "@/components/Card.vue";
                 <img src="/icons/pointer.svg" alt="Pointer Icon" class="w-4 h-4 opacity-70">
             </a>
         </div>
-        <div class="flex gap-2 my-2 items-center">
+        <div class="flex gap-2 items-center">
             <img src="/icons/github.png" alt="GitHub Icon" class="w-6 h-6">
             <a :href="contacts.githubUrl" target="_blank" rel="noopener noreferrer" class="text-gray-800 no-underline flex items-center gap-1">
                 <span>{{ contacts.github }}</span>

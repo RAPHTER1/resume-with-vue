@@ -22,7 +22,7 @@ export const formations = [
     {
         school: "Université de La Réunion",
         location: "La Réunion",
-        title: "Bachelor en Sciences",
+        title: "Licence de Sciences de la Vie (mention Biochimie - Chimie Organique)",
         year: "2016-2019"
     },
 ];

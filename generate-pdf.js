@@ -10,7 +10,7 @@ const generatePDF = async () => {
     try {
         await page.goto(VITE_URL, { waitUntil: 'networkidle0' });
     } catch (error) {
-        console.error("❌ Erreur : Vite n'est pas démarré. Lance `pnpm dev` avant Puppeteer.");
+        console.error("Erreur : Vite n'est pas démarré. Lance `pnpm dev` avant Puppeteer.");
         process.exit(1);
     }
 
@@ -19,13 +19,13 @@ const generatePDF = async () => {
 
     // Générer le PDF
     await page.pdf({
-        path: 'output.pdf',
+        path: '../output.pdf',
         format: 'A4',
         printBackground: true
     });
 
     await browser.close();
-    console.log("✅ PDF généré avec succès !");
+    console.log("PDF généré avec succès !");
 };
 
 // Lancer la génération

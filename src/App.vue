@@ -15,7 +15,7 @@ import Experience from './components/Cards/Experience.vue';
     <Header style="page-break-after: avoid;" />
 
     <!-- 2 COLONNES -->
-    <div class="flex flex-1 pt-3 pb-1 px-6 justify-between">
+    <div class="flex flex-1 pt-3 px-6 justify-between">
       
       <!-- COLONNE GAUCHE -->
       <div class="w-2/5 flex flex-col space-y-3">
