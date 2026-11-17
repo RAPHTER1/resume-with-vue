@@ -9,7 +9,7 @@ export const contacts = {
     github: "/RAPHTER1",
     githubUrl: "https://github.com/RAPHTER1/",
     position: "12 rue Arnaud Vidal, 31000 Toulouse",
-    phone: "+33 6 52 27 98 98"
+    phone: "+33 6 16 95 06 06"
 };
 
 export const description = {
@@ -56,6 +56,16 @@ export const skills = [
 
 // src/data.js
 export const experiences = [
+    {
+        title: "Chef de cuisine",
+        company: "Camping La Ravoire",
+        location: "Annecy, Auvergne-Rhône-Alpes",
+        period: "Mars 2026 - Septembre 2026",
+        description: [
+            "Conception des menus et gestion des approvisionnements",
+            "Encadrement de l'équipe de cuisine"
+        ]
+    },
     {
         title: "IT & Web Solutions Consultant",
         company: "Makina Booking",

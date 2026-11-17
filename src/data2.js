@@ -9,7 +9,7 @@ export const contacts = {
     github: "/RAPHTER1",
     githubUrl: "https://github.com/RAPHTER1/",
     position: "12 rue Arnaud Vidal, 31000 Toulouse",
-    phone: "+33 6 52 27 98 98"
+    phone: "+33 6 16 95 06 06"
 };
 
 export const description = {
