@@ -1,0 +1,11 @@
+<template>
+    <div class=" flex justify-between pb-3 pt-6 px-6">
+        <Content class="w-140"/>
+        <Photo class="w-36" />
+    </div>
+</template>
+
+<script setup>
+import Content from '@/components/Header/Content.vue';
+import Photo from '@/components/Header/Photo.vue';
+</script>
