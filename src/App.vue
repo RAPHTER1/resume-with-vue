@@ -5,6 +5,7 @@ import Formation from '@/components/Cards/Formation.vue';
 import Skills from './components/Cards/Skills.vue';
 import Footer from './components/Footer.vue';
 import Experience from './components/Cards/Experience.vue';
+import Profile from './components/Cards/Profile.vue';
 </script>
 
 <template>
@@ -18,16 +19,17 @@ import Experience from './components/Cards/Experience.vue';
     <div class="flex flex-1 pt-3 px-6 justify-between">
       
       <!-- COLONNE GAUCHE -->
-      <div class="w-2/5 flex flex-col space-y-3">
+      <div class="w-[34%] flex flex-col space-y-3">
 
         <Contact />
+        <Profile />
         <Formation />
         <Skills />
 
       </div>
 
       <!-- COLONNE DROITE -->
-      <div class="w-3/5 flex flex-col pl-6">
+      <div class="flex-1 min-w-0 flex flex-col pl-6">
 
         <Experience />
         
